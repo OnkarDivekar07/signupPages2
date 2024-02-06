@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 2545;
 //Handler function
 const app = express();
 
+
 //Middlewares
 app.use(express.json());
 app.use(cors());
